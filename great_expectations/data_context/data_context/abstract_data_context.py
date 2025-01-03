@@ -2210,11 +2210,11 @@ class AbstractDataContext(ConfigPeer, ABC):
 
         --Documentation--
             - https://docs.greatexpectations.io/docs/terms/data_docs/
-            
+
         .. list-table:: Parameters
            :widths: 18 20 10
            :header-rows: 1
-    
+
            * - Name
              - Description
              - Default
@@ -2241,21 +2241,21 @@ class AbstractDataContext(ConfigPeer, ABC):
         .. list-table:: Returns
             :widths: 10 10
             :header-rows: 1
-            
+
             * - Type
               - Description
             * - type
               - A dictionary with the names of the updated data documentation sites as keys and the location info of their index.html files as values
-            
+
         .. list-table:: Raises
             :widths: 10 10
             :header-rows: 1
-            
+
             * - Type
               - Description
             * - type
               - ClassInstantiationError: Site config in your Data Context config is not valid.
-        
+
         """  # noqa: E501
         return self._build_data_docs(
             site_names=site_names,
