@@ -11,7 +11,7 @@ from great_expectations.expectations.expectation import (
 )
 from great_expectations.expectations.metadata_types import DataQualityIssues
 from great_expectations.expectations.model_field_types import (
-    ConditionParser,  # noqa: TCH001 # FIXME CoP
+    ConditionParser,  # noqa: TC001 # FIXME CoP
 )
 from great_expectations.render import (
     LegacyDiagnosticRendererType,
@@ -24,7 +24,7 @@ from great_expectations.render.renderer_configuration import (
     RendererValueType,
 )
 from great_expectations.render.util import num_to_str, substitute_none_for_missing
-from great_expectations.validator.metric_configuration import (  # noqa: TCH001 # FIXME CoP
+from great_expectations.validator.metric_configuration import (  # noqa: TC001 # FIXME CoP
     MetricConfiguration,
 )
 

@@ -31,9 +31,9 @@ from great_expectations.util import (
     convert_to_json_serializable,  # noqa: TID251 # FIXME CoP
     filter_properties_dict,
 )
-from great_expectations.validator.computed_metric import MetricValue  # noqa: TCH001 # FIXME CoP
+from great_expectations.validator.computed_metric import MetricValue  # noqa: TC001 # FIXME CoP
 from great_expectations.validator.metric_configuration import (
-    MetricConfiguration,  # noqa: TCH001 # FIXME CoP
+    MetricConfiguration,  # noqa: TC001 # FIXME CoP
 )
 
 if TYPE_CHECKING:
